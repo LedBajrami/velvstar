@@ -17,8 +17,10 @@ cardCarousel.style.width = `${cardContainerWidth}px`;
 
   if (window.innerWidth <= 500) {
     cardWidth = 140;
-  } else if (window.innerWidth <= 1336) {
-    cardWidth = 400
+  } else if (650 < window.innerWidth <= 1106) {
+    cardWidth = 300
+  } else if (window.innerWidth <= 1366) {
+    cardWidth = 350
   } else {
     cardWidth = 500
   }

@@ -81,11 +81,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-document.addEventListener('click', (e)=> {
-  if(!e.target.matches('.collapsible-button')) return
 
-  e.target.style.border = 'none'
-})
 
 
 

@@ -160,6 +160,8 @@ header {
  }
  .home-text-container {
   text-align: center;
+  max-width: 1100px;
+  margin-inline: auto;
  }
  
  .home-page-h {
@@ -225,8 +227,8 @@ header {
 
   /* ----------------------------SERVICES---------------------------*/
   #services {
-    margin-top: 80px;
-    max-width: 1250px;
+    padding-block: 60px;
+    max-width: 1200px;
   }
   .section-top-p{
     text-align: center;
@@ -282,8 +284,7 @@ header {
 
    /* ----------------------------CLIENTRESULTS---------------------------*/
   #clientresult {
-    margin-block: 100px;
-    padding-block: 50px;
+    padding-block: 60px;
     background-color:  #f6f6f6;
   }
 
@@ -330,7 +331,7 @@ header {
     width: 100%;
     margin-inline: auto;
     border-radius: 15px;
-    margin-block: 40px;
+    margin-bottom: 50px;
     border: 1px solid white;
     background-color: var(--secondary-color3);
   }
@@ -348,7 +349,7 @@ header {
   }
   
   .case-img {
-    width: 60px;
+    width: 70px;
     margin-right: 15px;
   }
   .case-img img {
@@ -368,15 +369,17 @@ header {
   }
   .case1-h {
     font-size: 12px;
+    font-weight: 600;
   }
   
   .case .revenue {
     width: 160px;
     text-align: center;
     background-color: white;
-    border: 1px solid rgba(67, 147, 108, 1);
+    border: 2px solid #41d48d;
     border-radius: 30px;
     justify-content: center;
+    color: black;
   }
   
   .client-box-revenue  {
@@ -403,12 +406,10 @@ header {
     margin: 0 auto;
     max-width: 150px;
     color: var(--primary-color);
-    font-weight: 600;
+    font-weight: 700;
   }
   
-  #viewreport,
-  #viewreport2,
-  #viewreport3 {
+  .viewreportbtn {
     text-align: center;
     cursor: pointer;
   }
@@ -443,7 +444,8 @@ header {
   /* ----------------------------CEO--------------------------*/
   
   #ceo {
-    padding-block: 90px;
+    padding-block: 60px;
+    max-width: 1150px;
   }
 
   .ceo-img {
@@ -531,7 +533,7 @@ header {
   #faqs {
     background-color: #f6f6f6;
     padding-block: 50px;
-    margin: 100px auto;
+    margin-inline: auto;
     font-family: var(--ff-1);
   }
 
@@ -543,7 +545,7 @@ header {
     margin-block: 60px 40px;
     border: 1px solid rgba(228, 228, 231, 1);
     border-radius: 13px;
-    max-width: 1200px;
+    max-width: 1150px;
   }
 
   .faq-h {
@@ -581,7 +583,8 @@ header {
     color: var(--secondary-color);
     text-align: left;
     outline: none;
-    font-size: 16px;
+    font-size: 17px;
+    font-family: var(--ff-1);
     cursor: pointer;
     font-weight: 600;
   }
@@ -613,6 +616,7 @@ header {
     border: none;
     max-height: 0;
     overflow: hidden;
+    font-family: var(--ff-1);
     font-size: 14px;
     font-weight: 400;
     transition: max-height 0.2s ease-out;
@@ -644,7 +648,7 @@ header {
   text-align: center;
   border-radius: 15px;
   position: relative;
-  max-width: 1200px;
+  max-width: 1150px;
   margin-inline: auto;
 }
 .form-bg-img {
@@ -687,7 +691,8 @@ form textarea {
   margin-block: 10px;
   border-radius: 3px;
   color: var(--secondary-color3);
-  font-size: 14px;
+  font-size: 15px;
+  font-family: var(--ff-1);
 }
 
 
@@ -705,12 +710,12 @@ form button {
 }
 
 form textarea {
-  width: 100%;
+  width: 99%;
   padding: 10px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  height: 150px;
+  height: 120px;
   resize: none;
 }
 
@@ -735,8 +740,8 @@ form textarea {
 
 /*----------------------FOOTER------------------------*/
   #footer {
-    margin-block: 100px 20px;
-    padding-block: 30px;
+    margin-top: 80px;
+    padding-block: 50px;
     border-block: 1px solid rgba(228, 228, 231, 1);
     max-width: 1700px;
   }
@@ -785,7 +790,7 @@ form textarea {
     margin-top: 50px;
   }
   .copyright {
-    margin-block: 10px 20px;
+    margin-block: 20px;
   }
 
   #footer .footer-logo {
@@ -801,11 +806,9 @@ form textarea {
 
 /*----------------------POPUP-CLIENT------------------------*/
 
- #pop-up-client,
- #pop-up-client2, 
- #pop-up-client3 {
+.pop-up-client {
     width: auto;
-    max-width: 760px;
+    max-width: 1360px;
     height: auto;
     position: absolute;
     position: fixed;
@@ -850,12 +853,15 @@ form textarea {
     padding: 10px;
   }
   .case1-h {
-    font-size: 22.5px;
+    font-size: 24.5px;
     font-weight: 700;
     color: var(--secondary-color5);
   }
   .case1-p {
     width: 170px;
+    margin-block: 10px;
+    font-weight: 500;
+    color: var(--secondary-color2);
   }
   .revenue {
     text-align: center;
@@ -891,17 +897,17 @@ form textarea {
     display: flex;
     justify-content: left;
     align-items: center;
-    width: 300px;
-    margin-inline: auto;
+    width: 100%;
   }
   .case2-box-name {
-    font-size: 20px;
+    font-size: 21px;
     color: var(--secondary-color2);
     font-weight: 600;
+    margin-bottom: 5px;
   }
   .case2-box-price {
     color: var(--primary-color);
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
   }
 
@@ -921,13 +927,13 @@ form textarea {
     margin-right: 5px;
    }
    .case3-box-name {
-    font-size: 19px;
+    font-size: 17px;
     color: var(--secondary-color2);
     font-weight: 600;
    }
    .case3-box-price {
     color: var(--primary-color);
-    font-size: 21px;
+    font-size: 17px;
     font-weight: 700;
    }
 
@@ -1091,6 +1097,7 @@ form textarea {
    .services-box {
     padding: 5px 30px 30px 30px;
     margin-inline: 10px;
+    width: 100%;
   }
 
    .services-box-h {
@@ -1186,12 +1193,12 @@ form textarea {
 }
 
 .case1 {
-  padding-block: 25px;
+  padding: 10px 20px;
 }
-.case1 img {
-  width: 90px;
+.popup-case1-img {
+  width: 120px;
   display: block;
-  margin-inline: auto;
+  margin-bottom: 15px;
 }
 
  .case1-box {
@@ -1207,17 +1214,46 @@ form textarea {
   flex-direction: row;
  }
 
+ .case2 {
+  padding: 10px;
+  width: 100%;
+ }
+ .case2-box {
+  box-shadow: none;
+  border-radius: 0;
+  width: 250px;
+  padding: 10px;
+ }
+ .case2-box:nth-last-of-type(2) {
+  border-block: 1px solid rgba(228, 228, 231, 1);
+ }
+ .case1,
+ .case2,
+ .case3-box {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+  flex-basis: 1;
+  border-radius: 10px;
+ }
+
+ .case2-popup-img {
+  width: 55px;
+  margin-right: 10px;
+}
+
 
  .case3 {
   flex-direction: column;
  }
+ .case3-box {
+  padding: 25px 10px;
+ }
  .case3-box-name,
  .case2-box-name {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 26px;
  }
  .case3-box-price {
-  font-size: 27px;
+  font-size: 32px;
   margin-top: 5px;
  }
 
@@ -1298,6 +1334,7 @@ form textarea {
 
    .section-top-description {
     font-size: 50px;
+    line-height: 60px;
    }
 
    .ceo-mission-p-description {
@@ -1332,6 +1369,22 @@ form textarea {
     left: -20px;
     top: -30px;
   }
+
+  .case1 {
+    padding: 42px 40px;
+  }
+
+  .case2 {
+    padding: 0 25px;
+  }
+  .case2-box {
+    width: 400px;
+    padding-block: 25px;
+  }
+
+  .case3-box {
+    padding: 35px 20px;
+   }
 
 
 

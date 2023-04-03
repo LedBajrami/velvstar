@@ -256,8 +256,8 @@ header {
   }
 
   .services-box-icon {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin-block: 5px 15px;
   }
   .services-box-icon img{
@@ -308,7 +308,7 @@ header {
   
   
   .next-prev-btn {
-    margin: 20px auto;
+    margin: 0.1px auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -416,7 +416,7 @@ header {
   
   @media(width = 1366px) {
     .card {
-      flex: 0 0 590px;
+      flex: 0 0 550px;
     }
 
     .container2 {
@@ -444,7 +444,7 @@ header {
   /* ----------------------------CEO--------------------------*/
   
   #ceo {
-    padding-block: 60px;
+    padding-block: 60px 30px;
     max-width: 1150px;
   }
 
@@ -1110,7 +1110,7 @@ form textarea {
 
   .ceo-img {
     order: 2;
-    width: 35%;
+    width: 40%;
     margin: 30px 1px;
   }
   .ceo-text-container {
@@ -1271,7 +1271,7 @@ form textarea {
 
 @media(756px < width  < 1366px) {
   .card {
-    flex: 0 0 550px;
+    flex: 0 0 450px;
   }
 
 }

@@ -88,8 +88,8 @@ header {
 
 .list-items-mobile {
   position: absolute;
-  top: -100vh;
-  left: -100vw;
+  top: 0;
+  right: -100vw;
   height: 100vh;
 }
 
@@ -102,9 +102,9 @@ header {
 .list-item {
   list-style: none;
   color: var(--secondary-color);
-  font-size: 30px;
-  font-weight: 500;
-  margin-block: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-block: 40px;
   position: relative;
 }
 .list-item:hover {
@@ -135,8 +135,8 @@ header {
 
  .list-items-mobile.active {
   top: 0;
+  left: 100px;
   right: 0;
-  left: 0;
   bottom: 0;
   z-index: 4444;
   padding-block: 140px;
@@ -144,7 +144,7 @@ header {
   background-color: white;
   color: white;
   display: block;
-  transition: 0.8s;
+  transition: 0.3s;
  }
  /* ----------------------------HEADER---------------------------*/
 
@@ -203,7 +203,6 @@ header {
 .homepage-button2 {
   color: var(--secondary-color3);
   background-color: var(--primary-color);
-  border: 10px solid rgba(255, 255, 255, 1);
 }
 
 .homepage-button:hover {
@@ -327,7 +326,7 @@ header {
   
   .client-box {
     box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 2px;
-    padding: 15px 8px;
+    padding: 20px 8px;
     width: 100%;
     margin-inline: auto;
     border-radius: 15px;
@@ -404,14 +403,19 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 150px;
+    max-width: 160px;
     color: var(--primary-color);
     font-weight: 700;
+    cursor: pointer;
   }
   
   .viewreportbtn {
     text-align: center;
     cursor: pointer;
+  }
+
+  .viewreport-arrow {
+    width: 17px;
   }
   
   @media(width = 1366px) {
@@ -573,6 +577,7 @@ header {
     justify-content: space-between;
     text-align: center;
     border: 1px solid rgba(228, 228, 231, 1);
+    cursor: pointer;
   }
   .collapsible-button:nth-of-type(1){
     border-radius: 13px 13px 0 0;
@@ -583,7 +588,7 @@ header {
     color: var(--secondary-color);
     text-align: left;
     outline: none;
-    font-size: 17px;
+    font-size: 16px;
     font-family: var(--ff-1);
     cursor: pointer;
     font-weight: 600;
@@ -613,6 +618,8 @@ header {
 
   .content {
     padding: 0 18px;
+    margin-block: 10px;
+    margin-top: -10px;
     border: none;
     max-height: 0;
     overflow: hidden;
@@ -808,7 +815,7 @@ form textarea {
 
 .pop-up-client {
     width: auto;
-    max-width: 1360px;
+    max-width: 1460px;
     height: auto;
     position: absolute;
     position: fixed;
@@ -885,7 +892,7 @@ form textarea {
   .case3-box {
     width: 100%;
     background-color: var(--secondary-color3);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 4px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
     border-radius: 10px;
     margin-bottom: 15px;
   }
@@ -1123,6 +1130,9 @@ form textarea {
   .ceo-mission-p {
     font-size: 26px;
  }
+ .ceo-mission-p-description {
+  font-size: 6px;
+}
  .social-links {
   margin: 5px 0;
  }
@@ -1351,7 +1361,7 @@ form textarea {
    .services-box {
     padding: 20px 30px 30px 30px;
     margin: 10px 10px;
-  }
+   }
 
   form {
     padding: 60px;
@@ -1378,13 +1388,16 @@ form textarea {
     padding: 0 25px;
   }
   .case2-box {
-    width: 400px;
+    width: 430px;
     padding-block: 25px;
   }
 
   .case3-box {
-    padding: 35px 20px;
+    width: 250px;
+    padding: 50px 20px;
    }
+
+
 
 
 

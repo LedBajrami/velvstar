@@ -50,7 +50,7 @@ img {
 header {
   padding: 0 60px 5px 10px;
   background-color: transparent;
-  max-width: 1700px;
+  max-width: 1200px;
   padding-bottom: 40px;
 }
 
@@ -103,7 +103,7 @@ header {
   list-style: none;
   color: var(--secondary-color);
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   margin-block: 40px;
   position: relative;
 }
@@ -325,13 +325,12 @@ header {
   
   
   .client-box {
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 2px;
     padding: 20px 8px;
     width: 100%;
     margin-inline: auto;
     border-radius: 15px;
     margin-bottom: 50px;
-    border: 1px solid white;
+    border: 1px solid rgba(228, 228, 231, 1);
     background-color: var(--secondary-color3);
   }
   .client-box:hover {
@@ -423,9 +422,9 @@ header {
       flex: 0 0 550px;
     }
 
-    .container2 {
+    .card-carousel {
       width: 100%;
-      margin-left: 0px;
+      margin-left: -60px;
     }
   }
    /* ----------------------------CLIENTNRESULTS---------------------------  */
@@ -594,6 +593,8 @@ header {
     font-weight: 600;
   }
 
+
+
   .button-name-collapsible:hover {
     color: var(--primary-color);
   }
@@ -617,9 +618,9 @@ header {
   }
 
   .content {
-    padding: 0 18px;
-    margin-top: -10px;
+    padding: 0 18px;  
     border: none;
+    margin-top: -10px;
     max-height: 0;
     overflow: hidden;
     font-family: var(--ff-1);
@@ -631,6 +632,10 @@ header {
     width: 100%;
     border-inline: 1px solid rgba(228, 228, 231, 1);
     padding-right: 60px;
+  }
+
+  .content p{ 
+    margin-block: 10px 25px;
   }
 /*----------------------FAQS------------------------*/
 
@@ -750,7 +755,7 @@ form textarea {
     margin-top: 80px;
     padding-block: 50px;
     border-block: 1px solid rgba(228, 228, 231, 1);
-    max-width: 1700px;
+    max-width: 1200px;
   }
 
   #footer a .footer-logo {
@@ -1293,9 +1298,9 @@ form textarea {
 }
 
 @media(width > 1700px) {
-  .card {
-    flex: 0 0 750px;
-  }
+ .card-carousel {
+  margin-left: 9%;
+ }
 }
 
 

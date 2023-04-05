@@ -827,7 +827,7 @@ form textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 25px;
+    padding: 15px;
     background-color: var(--secondary-color3);  
     display: none;
     z-index: 333;
@@ -1201,6 +1201,11 @@ form textarea {
   position: fixed;
   top: 50%;
  }
+
+.pop-up-client {
+  padding: 5px;
+ }
+
  .popup-results {
   display: flex;
   justify-content: space-between;
@@ -1393,13 +1398,13 @@ form textarea {
     padding: 0 25px;
   }
   .case2-box {
-    width: 430px;
+    width: 380px;
     padding-block: 25px;
   }
 
   .case3-box {
     width: 250px;
-    padding: 50px 20px;
+    padding: 50px 0px 50px 20px;
    }
 
 

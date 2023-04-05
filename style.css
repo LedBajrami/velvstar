@@ -1405,6 +1405,9 @@ form textarea {
   .card {
     flex: 0 0 600px;
   }
+  .container2 {
+    margin-left: 10%;
+  }
 }
 
 @media(width > 1700px) {

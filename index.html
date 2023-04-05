@@ -101,7 +101,7 @@
     </section>
 
     <div id="clientresult">
-      <p class="section-top-p">Results</p>
+      <p class="section-top-p">Services</p>
       <p class="section-top-description">Client Results</p>
     
 
@@ -462,8 +462,8 @@
       </div>
       
       <div class="next-prev-btn">
-        <div class="prev-button">&#10094;</div>
-        <div class="next-button">&#10095;</div>
+        <div class="prev-button"><i class="fa-solid fa-arrow-left"></i></div>
+        <div class="next-button"><i class="fa-solid fa-arrow-right"></i></div>
       </div>
 
 
@@ -1205,20 +1205,21 @@
 
 
     <section id="contact" class="container">
-      <form action="" class="fadeUp">
+      <form  action="#" method="POST">
         <div class="form-container">
           <p class="form-h">Get In Touch</p>
            <p class="form-p">We look forward to hearing from you! One of our team members is going to get back to you within 24 hours.</p>
           <div class="row">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
+            <input type="text" id='firstName' name="firstName" placeholder="First Name" value="" required />
+            <input type="text"  id='lastName' name="lastName" placeholder="Last Name" required />
+            <input type="hidden" name="_next" value="https://velvstar.netlify.app/#contact">
           </div>
           <div class="row">
-            <input type="email" placeholder="Email Address">
-            <input type="text" placeholder="Company Website">
+            <input type="email" id="email" name="email" placeholder="Email Address" required />
+            <input type="text" id="company" name="company" placeholder="Company Website" required />
           </div>
-          <textarea type="text" placeholder="Your Message"></textarea>
-          <button type="submit" class="contact-btn" id="thankypu-popup-btn">Send Message</button>
+          <textarea type="text" id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" value="Submit" class="contact-btn" id="thankypu-popup-btn">Send Message</button>
           <img src="img/getintouch-shape-img.png" alt="" class="form-bg-img">
         </div>
       </form>
@@ -1252,6 +1253,7 @@
   <p class="copyright">Copyright 2023. Velvstar Media</p>
 
   <div class="overlay"></div>
+
 
 
 </body>

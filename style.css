@@ -335,7 +335,7 @@
     }
     .client-box:hover {
       border-color: var(--primary-color);
-      transform: translateY(-0.5%);
+  
     }
     
     .client-box-row {
@@ -444,7 +444,7 @@
     .ceo-img {
       width: 90%;
       border-radius: 50%;
-      margin: 30px auto;
+      margin: 30px  auto 20px auto;
       overflow: hidden;
       min-width: 30px;
     } 
@@ -459,13 +459,14 @@
     }
   
     .quote-mark {
+      margin-top: -7px;
       font-size: 45px;
       color: var(--primary-color);
     }
     .ceo-mission-p {
       font-size: 24px;
       font-weight: 500;
-      margin-block: 20px;
+      margin-block: 7px 20px;
     }
     .ceo-mission-p-description {
       color: var(--secondary-color2);
@@ -812,7 +813,7 @@
       width: auto;
       max-width: 1460px;
       height: auto;
-      max-height: 96svh;
+      max-height: 98svh;
       position: absolute;
       position: fixed;
       top: 50%;
@@ -878,7 +879,7 @@
     }
   
     .popup-case1-img {
-      width: 80px;
+      width: 70px;
     } 
     .popup-box {
       margin-inline: 10px;
@@ -946,7 +947,7 @@
       overflow: hidden;
      }
      .popup-img img {
-      width: 300%;
+      width: 250%;
      }
   
   /*----------------------POPUP-CLIENT------------------------*/
@@ -1022,17 +1023,17 @@
   
   @media(width < 400px) { 
     .card {
-        padding: 5px;
+        padding: 2px;
     }
 
     .container2 {
-        width: 100%;
+        width: 95%;
     }
     .client-box {
         padding-inline: 10px;
     }
     .case1-p {
-        margin-right: 12px;
+        margin-right: 2px;
     }
   }
   
@@ -1284,9 +1285,7 @@
     margin-top: 5px;
    }
   
-   .popup-img {
-    margin-top: 30px;
-   }
+  
   
    .popup-img img {
     width: 100%;

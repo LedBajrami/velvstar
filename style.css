@@ -644,7 +644,7 @@
     overflow: hidden;
   }
   
-  #contact form {
+  #contact #form {
     background-color: var(--primary-color);
     color: var(--secondary-color3);
     padding: 20px;
@@ -690,7 +690,7 @@
     outline: none;
     border: 1px solid rgba(203, 213, 225, 1);
     width: 100%;
-    padding: 15px 10px;
+    padding:15px 10px;
     margin-block: 10px;
     border-radius: 3px;
     color: var(--secondary-color3);
@@ -1034,7 +1034,20 @@
     }
     .case1-p {
         margin-right: 2px;
+        margin-block: 0;
     }
+    .case2-box {
+      padding: 3px;
+    }
+    .case2-box-name {
+      margin-bottom: 0;
+    }
+    .case3-box {
+      padding: 4px;
+      margin-bottom: 4px;
+    }
+
+
   }
   
   
@@ -1165,7 +1178,7 @@
   }
   
   
-   .form-container {
+   form {
     max-width: 600px;
     padding-block: 50px;
     margin-inline: auto;
@@ -1177,6 +1190,12 @@
   
    form input {
     margin-inline: 5px;
+    width: 48%;
+   }
+
+   form textarea {
+ 
+    width: 98.1%;
    }
   
   .form-h {
@@ -1361,10 +1380,10 @@
       margin: 10px 10px;
      }
   
-    form {
+    #form {
       padding: 60px;
     }
-    .form-container {
+    form {
       max-width: 700px;
     }
     form input {
@@ -1377,9 +1396,13 @@
       left: -20px;
       top: -30px;
     }
+
+    .client-box .case1-p {
+      margin-right: 90px;
+    }
   
     .case1 {
-      padding: 42px 40px;
+      padding: 32px 40px;
     }
   
     .case2 {
@@ -1387,12 +1410,15 @@
     }
     .case2-box {
       width: 380px;
-      padding-block: 25px;
+      padding-block: 20px;
     }
   
     .case3-box {
       width: 250px;
-      padding: 50px 0px 50px 20px;
+      padding: 62px 0px 22px 20px;
+     }
+     .pop-up-client {
+      overflow: hidden;
      }
   
   

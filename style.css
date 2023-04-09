@@ -1034,7 +1034,7 @@
           padding-inline: 10px;
       }
       .case1-p {
-          margin-right: 2px;
+          margin-right: 13px;
           margin-block: 0;
       }
       .case2-box {
@@ -1042,10 +1042,17 @@
       }
       .case2-box-name {
         margin-bottom: 0;
+        font-size: 20px;
+      }
+      .case2-box-price {
+        font-size: 20px;
       }
       .case3-box {
         padding: 4px;
         margin-bottom: 4px;
+      }
+      .case3-box-name {
+        line-height: 20px;
       }
 
 

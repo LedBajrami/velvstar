@@ -212,7 +212,7 @@
       transition: 0.4s;
     }
     .homepage-button2:hover {
-      background-color: var(--secondary-color3);
+      background-color: transparent;
     
       color: var(--primary-color);
       transition: 0.4s;

@@ -1139,7 +1139,7 @@
       <p class="section-top-description">Meet Our CEO</p>
       <div class="row">
         <div class="ceo-img">
-          <img src="img/Business Headshot.jpeg" alt="">
+          <img src="img/CEOimg.svg" alt="">
         </div>
         <div class="ceo-text-container">
           <i class="fa-solid fa-quote-left quote-mark"></i>
@@ -1205,24 +1205,20 @@
 
 
     <section id="contact" class="container">
-      <form  action="#" method="POST">
-        <div class="form-container">
+      <div id="form">
+        <form  action="#" method="POST">
           <p class="form-h">Get In Touch</p>
            <p class="form-p">We look forward to hearing from you! One of our team members is going to get back to you within 24 hours.</p>
-          <div class="row">
-            <input type="text" id='firstName' name="firstName" placeholder="First Name" value="" required />
-            <input type="text"  id='lastName' name="lastName" placeholder="Last Name" required />
-            <input type="hidden" name="_next" value="https://velvstar.netlify.app/#contact">
-          </div>
-          <div class="row">
-            <input type="email" id="email" name="email" placeholder="Email Address" required />
-            <input type="text" id="company" name="company" placeholder="Company Website" required />
-          </div>
+            <input  type="text" id='firstName' name="firstName" placeholder="First Name" value="" required />
+            <input  type="text"  id='lastName' name="lastName" placeholder="Last Name" required />
+            <input  type="hidden" name="_next" value="https://velvstar.netlify.app/#contact">
+            <input  type="email" id="email" name="email" placeholder="Email Address" required /> 
+            <input  type="text" id="company" name="company" placeholder="Company Website" required />
           <textarea type="text" id="message" name="message" placeholder="Your Message" required></textarea>
           <button type="submit" value="Submit" class="contact-btn" id="thankypu-popup-btn">Send Message</button>
           <img src="img/getintouch-shape-img.png" alt="" class="form-bg-img">
-        </div>
       </form>
+      </div>
 
 
 
